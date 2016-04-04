@@ -11,10 +11,13 @@ node_js:
   - 5.0
 
 env: 
-  - secure: QeIFEMOkpQDS9Ssl+Oo57dMvl41wDcSOBUxDO8o2FgptIuXsdPWVfol8gYlRj8MP9k9IUfO9fORhEQ5SVGnaOYG7iBTcjLg3g4dUJeDV7GnsqC8dbMXgD7m9LC7T9knXlsq32+c105w1pvBNEmxJ5RYuyuN4EA4XD0u3a1aRHi4jd3zBkbvHijUoempK9pt/Pb725vwJfc2ps6CpixIvHKTEhfkRu3U3TBuV87vdlEfxSMVHZlbognnMn17YXwKnSwVzLKvBH2/Gycu+eSPJSL8T3ptXlL3PuuCwGMCNUGq693T/dYeeg7Ssrsmbdxp3IFYgrG9l4lJeYL826ZCrbw==
+  - secure: SJQITVTHy6El3EOU297/JISv3AXI/bOyQKtWSrX5TKMs+XkCYUayaSar2fVjUD1hPUd3C+6qibfWvvW66JuiWuGVbLhsi2KWr6HTR/bEXpjo4kEt3/NbFkckQUz3rJmbr+pW/JsWlXxvNDp4Fbxqg9vjC1q0sj+Qd8nsF4io7lwTkX+lYTeD2P6xu202G6YCgyx99HpLAYI1FLUum1EjsyD4EhYyD5BAKVEYB+d6FGJpwWJ2dZI0IDu4Es8fxfPLbN2HmoLI4AxgUY8TCHtdy39JvAZDYN4ACoN/Lih2JrcYC77L9T4Wl3I0AVmlBRK7tK6rtNbuahZX4AFnn62kDA==
+  #FOO=BAR //shiphitchock1-beta
+  - secure: h+Y3OfR6ub8QG8b9LGKnF0IgORMgRIttS1G9oLODy+Y6aMU/UJCWDzlBmK7UiPf5NfSjx4pJh51QNTJw1p6ALQKO9ctehZsQoDdiYB8RSCZIju4qiHzbEn2JfBugQ+fV0GJVt36vhQA3U7D9cRILKD9Wf+uj3RorYxsGGJYXzllZRJSRQDr5Sk/VTw5iEu2FBngUChvYyyyFEgkP0kIk2W6mocD9ozhgJTgzaUlxXC6EjtG/R8k1HoRWt116geJnnoV95uIMPvMZWjQt+GQpqpScaVATAOIowvMxEbTRN/Ggkzp/rKLZLDyRp91MZ4v73h6tIDLxNu4q6tmbPXh8Jg==
+  #BAR=BOO //shiphitchock1-beta
   
 build:
   ci:
     - node --version
-    #- echo "$GOO"
-    - echo "$FOO" #bar 
+    - echo "$FOO"
+    - echo "$BAR=BOO"
